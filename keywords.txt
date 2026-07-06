@@ -1,0 +1,15 @@
+# syntax highlighting for the Arduino IDE
+
+TinyBNO085	KEYWORD1
+
+begin	KEYWORD2
+poll	KEYWORD2
+present	KEYWORD2
+enableRotationVector	KEYWORD2
+sendPacket	KEYWORD2
+qw	KEYWORD2
+qx	KEYWORD2
+qy	KEYWORD2
+qz	KEYWORD2
+fresh	KEYWORD2
+ok	KEYWORD2
