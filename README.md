@@ -1,3 +1,8 @@
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="docs/header-dark.svg">
+  <img alt="bno085-multi: several BNO085 IMUs, one microcontroller. C, single header, MIT. Two sensors at addresses 0x4A and 0x4B, each with its own TinyBNO085 instance, feeding one Teensy 4.1." src="docs/header-light.svg" width="100%">
+</picture>
+
 # bno085-multi
 
 **Run two or more BNO085 IMUs on one microcontroller, simultaneously, at full rate. The stock Adafruit library cannot.**
@@ -8,8 +13,8 @@ quaternion** over I2C. Because it keeps *all* protocol state **inside each objec
 globals), you can instantiate as many sensors as you have I2C buses or addresses and
 stream them all at once.
 
-Bench-verified on a **Teensy 4.1** streaming **two BNO085s + twelve joint encoders at
-50 Hz**, rock stable.
+Bench-run on a **Teensy 4.1**: two BNO085s at the library's default **100 Hz** report
+rate, polled in the same loop as twelve AS5600 encoder channels and logged at 50 Hz.
 
 ## Why this exists
 
