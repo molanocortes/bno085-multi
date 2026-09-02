@@ -93,7 +93,7 @@ BNO085, use the Adafruit library. Use this one when you need **several** BNO085s
 
 ## Origin
 
-Written for **TAKTO**, a one-finger hand exoskeleton (M.Sc. thesis, Juan Sebastian Molano,
+Written for **TAKTO**, a one-finger hand exoskeleton (M.Sc. thesis, Sebastian Molano,
 Hochschule Anhalt), where a hand IMU and a forearm IMU must stream together with twelve
 joint encoders. If it helps you, a star is appreciated.
 
