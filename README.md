@@ -1,8 +1,3 @@
-<picture>
-  <source media="(prefers-color-scheme: dark)" srcset="docs/header-dark.svg">
-  <img alt="bno085-multi: several BNO085 IMUs, one microcontroller. C, single header, MIT. Two sensors at addresses 0x4A and 0x4B, each with its own TinyBNO085 instance, feeding one Teensy 4.1." src="docs/header-light.svg" width="100%">
-</picture>
-
 # bno085-multi
 
 **Run two or more BNO085 IMUs on one microcontroller, simultaneously, at full rate. The stock Adafruit library cannot.**
